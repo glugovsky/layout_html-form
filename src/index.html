@@ -30,10 +30,10 @@
         <label class="form-field">
           Name:
           <input
-          type="text"
-          name="name"
-          autocomplete="off"
-        >
+            type="text"
+            name="name"
+            autocomplete="off"
+          >
         </label>
 
         <label class="form-field">
@@ -52,7 +52,7 @@
           <input type="date" name="dateOfBirth">
         </label>
 
-        <label class="form-field last">
+        <label class="form-field">
           I accept the term of the agreement
           <input
             type="checkbox"
@@ -74,7 +74,7 @@
           >
         </label>
 
-        <label class="form-field last">
+        <label class="form-field">
           Password:
           <input
             type="password"
@@ -88,13 +88,25 @@
       <fieldset class="form-group">
         <legend>An interesting fact about you!</legend>
 
-        <label class="form-field">
+        <div class="form-field">
           Do you love cats!
-          <input type="radio" name="cats">
-          Yes
-          <input type="radio" name="cats">
-          No
-        </label>
+          <label>
+            <input
+              type="radio"
+              name="cats"
+              value="yes"
+            >
+            Yes
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="cats"
+              value="no"
+            >
+            No
+          </label>
+        </div>
 
         <label class="form-field">
           What is your favorite color?
@@ -115,7 +127,7 @@
           </select>
         </label>
 
-        <label class="form-field last">
+        <label class="form-field">
           How do you rate our work?
           <input
             type="range"
@@ -135,7 +147,7 @@
           <textarea name="comments"></textarea>
         </label>
 
-        <label class="form-field last">
+        <label class="form-field">
           Would you recommend us?
           <select name="recommend">
             <option value="yes">yes</option>
